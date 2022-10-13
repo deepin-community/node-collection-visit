@@ -1,0 +1,32 @@
+Source: node-collection-visit
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , mocha
+ , node-map-visit (>= 1.0.0)
+ , node-object-visit (>= 1.0.0)
+ , node-clone-deep
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-collection-visit
+Vcs-Git: https://salsa.debian.org/js-team/node-collection-visit.git
+Homepage: https://github.com/jonschlinkert/collection-visit
+Rules-Requires-Root: no
+
+Package: node-collection-visit
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-object-visit (>= 1.0.0)
+ , node-map-visit (>= 1.0.0)
+Description: Visit a method over items in object, or map visit over the objects
+ Visit a method over the items in an object, or map visit over the objects
+ in an array. This is an alternative approach to using extend or merge, useful
+ when events are emitted on a method like get or set.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,31 @@
+node-collection-visit (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Switch test and install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 16 Dec 2019 23:12:57 +0100
+
+node-collection-visit (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 10 Jan 2018 19:44:25 +0530
+
+node-collection-visit (0.2.3-2) unstable; urgency=medium
+
+  * Add node-should to builddeps (Closes: #842667)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 31 Oct 2016 15:13:56 +0530
+
+node-collection-visit (0.2.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #841075)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 17 Oct 2016 18:19:27 +0530
